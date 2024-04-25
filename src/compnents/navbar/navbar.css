@@ -1,0 +1,19 @@
+.navbar-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it's above other content */
+    background-color: #fff; /* Set background color as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for a better look */
+  }
+  
+  .navlink {
+    margin-right: 20px; /* Add margin between links */
+    color: #333; /* Set link color */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .navlink:hover {
+    color: #000; /* Change color on hover */
+  }
+  
